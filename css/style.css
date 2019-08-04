@@ -1,0 +1,44 @@
+
+
+/* footer */
+.social {
+    color: black;
+  }
+  
+  #linkedin{
+    background-color: white;
+    font-size: 200%;
+  }
+  #linkedin:hover{
+    background-color: white;
+    font-size: 200%;
+  }
+  
+  #google-plus{
+    background-color: white;
+    color: #db4437;  
+    font-size: 200%;
+  }
+  #google-plus:hover{
+    background-color: white;
+    color: #db4437;
+    font-size: 200%;
+  }
+  
+  #github{
+    background-color: white;
+    color: black;
+    font-size: 200%;
+  }
+  #github:hover{
+    background-color: white;
+    color: black;
+    font-size: 200%;
+  }
+  
+    #foot {
+      color: darkslategrey;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 100%;
+    }
+  
