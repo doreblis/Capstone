@@ -115,80 +115,99 @@
         </div>
 
 
-            <form>
+
  
         <br>
-        
-        <input type="radio" name="subject" value="personal" id="personal"/>
-        <label for="personal">Personal Message</label>
-        <input type="radio" name="subject" value="professional" id="professional"/>
-        <label for="professional">Professional Message</label>
+
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Personal Message</label>
+        </div>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">Professional Message</label>
         </div>
         
-        <div class="form">
-            <div class="row">
-            <div class="col-25">
-                <label for="fname">FIRST NAME</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Your first name">
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-25">
-                <label for="lname">LAST NAME</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Your last name">
-            </div>
-        
-            </div>
-                      
-                      
-        <div class="row">
-        <div class="col-25">
-            <label for="subject">MESSAGE</label>
-        </div>
-        <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="Please write something" style="height:200px"></textarea>
-        </div>
-        </div>
-                    
+        <form>
+                <div class="form-group row">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="First and Last Name">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="email@address.com">
+                  </div>
+                </div>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Type of Message</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Personal Message
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Professional Message
+                        </label>
+                      </div>
+                      <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                        <label class="form-check-label" for="gridRadios3">
+                          Other (disabled option)
+                        </label>
+                      </div>
                     </div>
-                    
-                    
-                    
-                    <div>
-                    <label for="marketing">How did you hear about me?</label>
-                    <br>
-                    <select name="marketing">
-                      <optgroup label="Online">
-                        <option value="social">Social Media (FB, Twitter, LinkedIn)</option>
-                        <option value="github">Online Portfolio (GitHub)</option>
-                        <option value="search">Search Engine</option>
-                        <option value="email">Email</option>
-                      </optgroup>
-                      <optgroup label="In-Person">
-                        <option value="networking">We met at a networking event</option>
-                        <option value="referral">Personal referral</option>
-                        <option value="random">We met somewhere else</option>
-                      </optroup>
-                      <option value="other">Other</option>
-                    </select>
-                    
-                    <br>
-                    <br>
-                    
-                    <div>
-                    <input type="checkbox" name="opt-in" value="opt-in" checked /> I want to subscribe for latest updates!
-                    <br>
-                    <input type="checkbox" name="opt-out" value="opt-out" disabled /> I don't want to subscribe to anything.
+                  </div>
+                </fieldset>
+                <div class="form-group row">
+                  <div class="col-sm-2">Consent</div>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">
+                        I consent this site to collect my personal/professional data.
+                      </label>
                     </div>
-                    
-                    <br>
-                    <br>
-                    <input type="submit" />
-                    </form>
+                  </div>
+                </div>
+
+<!-- old form -->
+   
+<select class="custom-select custom-select-sm">
+        <option selected>How did you hear about me?</option>
+        <optgroup label="Online">
+        <option value="social">Social Media (FB, Twitter, LinkedIn)</option>
+        <option value="github">Online Portfolio (GitHub)</option>
+        <option value="search">Search Engine</option>
+        <option value="email">Email</option>
+        </optgroup>
+        <optgroup label="In-Person">
+        <option value="networking">We met at a networking event</option>
+        <option value="referral">Personal referral</option>
+        <option value="random">We met somewhere else</option>
+        </optroup>
+        <optgroup label="other">Other</option>
+      </select>
+       
+
+        
+        <br>
+        <br>
+        <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+
+        </form>
 
 
 
