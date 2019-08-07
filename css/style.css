@@ -42,7 +42,7 @@ footer {
   }
   
 #foot {
-    color: darkslategrey;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
@@ -57,3 +57,9 @@ footer {
     padding: 15em;
 }
 
+
+
+.contactform {
+  padding: 20em;
+  background-color: lightblue;
+}
