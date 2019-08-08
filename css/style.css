@@ -1,4 +1,6 @@
-
+.carouselimg {
+  image-resolution: 300dpi;
+}
 
 /* footer */
 
@@ -49,6 +51,7 @@ footer {
 
 
 .alert {
+  
     text-align: center;
 
 }
@@ -62,4 +65,5 @@ footer {
 .contactform {
 
   background-color: lightblue;
+  padding: 15em;
 }
