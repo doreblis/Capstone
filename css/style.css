@@ -152,9 +152,6 @@ home start */
   background: lightcoral;
 }
 
-.mh-professional-skills {
-  padding-left: 20%;
-}
 
 .mh-professional-skills h3 {
   font-size: 30px;
@@ -189,12 +186,18 @@ home start */
   height: 720px;
 }
 
-/* footer */
-
-footer {
-    background-color: #0B3A66;
+/* contact start */
+.mh-footer-address {
+  margin-bottom: 60px;
 }
 
+.mh-footer-address {
+  margin-bottom: 60px;
+}
+
+/* contact end */
+
+/* footer */
 .social {
     color: black;
   }
