@@ -180,6 +180,77 @@ home start */
 }
 /* skills end */
 
+/* reviews start */
+.module {
+  padding: 120px 0 100px;
+}
+.module-gray {
+  background: #f5f5f5;
+}
+.module-header {
+  margin: 0 0 50px;
+  text-align: center;
+}
+.module-title {
+  position: relative;
+  margin-bottom: 50px;
+  font-weight: 300;
+  color: #5b5963;
+}
+h2 {
+  font-size: 30px;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
+  color: #5b5963;
+}
+.module-title span {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: -40px;
+  z-index: 0;
+  opacity: 0.05;
+  font-weight: 700;
+}
+.module-line {
+  background: #666;
+  width: 55px;
+  height: 1px;
+  margin: 30px auto;
+}
+.module-header {
+  margin: 0 0 50px;
+  text-align: center;
+}
+.module-icon {
+  font-size: 32px;
+  color: rgba(253,115,90,1);
+  margin: 0 auto;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: -4px 1px 13px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.testimonials {
+  margin-bottom: 20px;
+}
+.single-testimonials {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.single-testimonials {
+  max-width: 500px;
+  margin: 0 auto;
+}
+/* reviews end */
+
 
 .carouselimg {
   width: 1080px;
@@ -187,14 +258,19 @@ home start */
 }
 
 /* contact start */
-.mh-footer-address {
-  margin-bottom: 60px;
+.contact-form .form-control {
+  border: none;
+  border-bottom: 1px solid #800404;
+  padding: 12px 0;
+  background: transparent;
+  letter-spacing: .7px;
+  font-weight: 300;
+  box-shadow: black;
+  height: 44px;
+  color: #464444;
+  font-size: 14px;
+  position: relative;
 }
-
-.mh-footer-address {
-  margin-bottom: 60px;
-}
-
 /* contact end */
 
 /* footer */
@@ -235,23 +311,4 @@ home start */
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-}
-
-
-.alert {
-  
-    text-align: center;
-
-}
-
-.jumbotrton {
-
-}
-
-
-
-.contactform {
-
-  background-color: lightblue;
-  padding: 15em;
 }
