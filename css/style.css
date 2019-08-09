@@ -164,6 +164,7 @@ home start */
   display: inline-block;
   width: 100px;
   height: 100px;
+  color: black;
 }
 
 .mh-progress path:nth-child(2) {
@@ -177,6 +178,9 @@ home start */
   width: 48%;
   margin-bottom: 30px;
   text-align: center;
+}
+.progressbar-text {
+  color: black;
 }
 /* skills end */
 
