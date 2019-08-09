@@ -70,12 +70,26 @@ home start */
   border-bottom-left-radius: 0px;
 }
 
-.mh-header-info h2 {
-  font-size: 60px;
+/* .mh-header-info h2 {
+  font-size: 3.6em;
   font-weight: 600;
   line-height: 65px;
   margin-top: 10px;
   margin-bottom: 10px;
+} */
+
+h2 {
+  font-size: 3.5em;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
+  color: #5b5963;
+}
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 1.5em;
+  }
 }
 
 .mh-header-info h4 {
@@ -201,25 +215,8 @@ home start */
   font-weight: 300;
   color: #5b5963;
 }
-h2 {
-  font-size: 30px;
-  margin: 0 0 30px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  margin: 5px 0 5px;
-  color: #5b5963;
-}
-.module-title span {
-  font-size: 100px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  text-align: center;
-  top: -40px;
-  z-index: 0;
-  opacity: 0.05;
-  font-weight: 700;
-}
+
+
 .module-line {
   background: #666;
   width: 55px;
@@ -245,10 +242,10 @@ h2 {
 /* reviews end */
 
 
-.carouselimg {
-  width: 1080px;
+/* .carouselimg {
+  max-width: 1080px;
   height: 720px;
-}
+} */
 
 /* contact start */
 .contact-form .form-control {
