@@ -3,7 +3,12 @@
 }
 
 .section-separator {
-  padding: 150px 0;
+  padding: 150px 1px;
+}
+@media only screen and (max-width: 600px) {
+  .section-separator {
+    padding: 15px 1px;
+  }
 }
 
 ul li {
@@ -50,11 +55,10 @@ home start */
 }
 .social-icon {
   display: inline-block;
-  float: left;
 }
 
 .mh-header-info {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .mh-header-info span {
@@ -70,32 +74,35 @@ home start */
   border-bottom-left-radius: 0px;
 }
 
-/* .mh-header-info h2 {
-  font-size: 3.6em;
-  font-weight: 600;
-  line-height: 65px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-} */
-
 h2 {
   font-size: 3.5em;
-  margin: 0 0 30px;
   text-transform: uppercase;
   letter-spacing: 5px;
-  margin: 5px 0 5px;
   color: #5b5963;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media only screen and (max-width: 600px) {
   h2 {
-    font-size: 1.5em;
+    font-size: 2em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
   }
 }
 
 .mh-header-info h4 {
-  font-size: 26px;
+  font-size: 2em;
   line-height: 34px;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mh-header-info h4 {
+    font-size: 1.3em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
 }
 
 .mh-header-info ul li {
@@ -174,7 +181,7 @@ h2 {
   margin-bottom: 60px;
 }
 
-.mh-progress.mh-progress-circle {
+.mh-progress .mh-progress-circle {
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -216,7 +223,6 @@ h2 {
   color: #5b5963;
 }
 
-
 .module-line {
   background: #666;
   width: 55px;
@@ -242,10 +248,6 @@ h2 {
 /* reviews end */
 
 
-/* .carouselimg {
-  max-width: 1080px;
-  height: 720px;
-} */
 
 /* contact start */
 .contact-form .form-control {
