@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+
+
 .section-separator {
   padding: 150px 1px;
 }
@@ -151,7 +153,7 @@ h2 {
 }
 /* skills end */
 
-/* reviews start */
+/* projects start */
 .module {
   padding: 120px 0 100px;
 }
@@ -191,7 +193,13 @@ h2 {
   box-shadow: -4px 1px 13px rgba(0,0,0,0.1);
   text-align: center;
 }
-/* reviews end */
+
+.projectimg {
+  max-width: 1000px;
+  max-height: 620px;
+  object-fit: scale-down;
+}
+/* projects end */
 
 
 
